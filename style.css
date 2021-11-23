@@ -1,0 +1,66 @@
+html {
+    width: 500px;
+    height: 500px;
+    margin: 0 32% 25%;
+    padding: 0px;
+    border-width: 0px;
+}
+
+body {
+    box-shadow: 4px 7px 8px 3px;
+}
+
+#header{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 70px;
+    height: 75px;
+    background-color: #fa8072;
+}
+
+#gameSelection {
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    background-color: teal;
+    padding: 2% 34% 2% 34%;
+}
+
+#selectX {
+    background-color: #d3d3d3;
+}
+
+#selectO {
+    background-color: #d3d3d3;
+}
+
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: #d3d3d3;
+    font-size: 60px;
+    padding: 20px;
+    height: 100px;
+    width: 162px;
+}
+
+#newGame {
+    height: 50px;
+    background-color: salmon;
+    padding: 5% 0 0 44%;
+}
+
+#outcome {
+    background-color: salmon;
+    text-align: center;
+    font-size: 25px;
+    height: 40px;
+}
+
+footer {
+    background-color: lightgray;
+}
